@@ -30,4 +30,12 @@ To fix it, just add in the first line of your script the following line:
 #! /usr/bin/python3 or 
 #! /usr/bin/python
 
- 
+
+02/12/2012
+
+1)git add. -> add all files
+2)git rm <file> ->remove file
+3)git remote add origin <github url>- saves changes to github
+4)git config --global user.email "archiesdubey1@gmail.com"
+5)git config --global user.name "ArchiesDubey"
+6)git commit -m "<message"> 
