@@ -1,0 +1,33 @@
+#01/12/2019
+
+1)
+Working directory must always be changed using the (cd) command in the terminal to point to the current working directory
+
+Eg-cd ~/Documents/VS_Code/Python
+
+2)Library to convert Python script to executable -> pyinstaller
+
+Eg- pyinstaller <filename>.py --onefile
+
+3)
+Install PIP in Linux Systems
+To install pip in Linux, run the appropriate command for your distribution as follows:
+
+Install PIP On Debian/Ubuntu
+# apt install python-pip	#python 2
+# apt install python3-pip	#python 3
+
+4)Library for sending mails -> smtplib 
+
+5)
+If see this error:
+
+from: can't read /var/mail/$First_Library_Name
+
+This happend, because you need to be explicit with application you want to run your script.
+To fix it, just add in the first line of your script the following line:
+
+#! /usr/bin/python3 or 
+#! /usr/bin/python
+
+ 
